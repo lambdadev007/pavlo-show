@@ -51,8 +51,7 @@
     "slider": {
       "of": "\/",
       "next_slide": "Következő dia",
-      "previous_slide": "Előző dia",
-      "name": "Csúszka"
+      "previous_slide": "Előző dia"
     }
   },
   "newsletter": {
@@ -75,8 +74,7 @@
     "skip_to_product_info": "Kihagyás, és ugrás a termékadatokra",
     "total_reviews": "összes értékelés",
     "star_reviews_info": "{{ rating_max }}\/{{ rating_value }} csillag",
-    "collapsible_content_title": "Összecsukható tartalom",
-    "complementary_products": "Kiegészítő termékek"
+    "collapsible_content_title": "Összecsukható tartalom"
   },
   "blogs": {
     "article": {
@@ -187,6 +185,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Nem találjuk az oldalt",
+      "subtext": "404-es hiba történt."
+    },
     "search": {
       "no_results": "Nincs találat erre: {{ terms }}. Ellenőrizd a helyesírást, vagy írj be egy másik szót vagy kifejezést.",
       "results_with_count": {
@@ -216,10 +218,6 @@
         "error_heading": "Kérjük, helyesbítsd a következőket:",
         "title": "Kapcsolattartói űrlap"
       }
-    },
-    "404": {
-      "title": "Nem találjuk az oldalt",
-      "subtext": "404-es hiba történt."
     }
   },
   "sections": {
@@ -269,7 +267,8 @@
     },
     "featured_collection": {
       "view_all": "Az összes megtekintése",
-      "view_all_label": "Az ebben a kollekcióban szereplő összes termék megtekintése: {{ collection_name }}"
+      "view_all_label": "Az ebben a kollekcióban szereplő összes termék megtekintése: {{ collection_name }}",
+      "slider": "Csúszka"
     },
     "collection_list": {
       "view_all": "Az összes megtekintése"
@@ -379,7 +378,7 @@
     },
     "reset_password": {
       "title": "Új fiókjelszó létrehozása",
-      "subtext": "Írd be az új jelszót",
+      "subtext": "Írd be az ehhez az e-mail-címhez tartozó új jelszót: {{ email }}.",
       "password": "Jelszó",
       "password_confirm": "Jelszó megerősítése",
       "submit": "Új jelszó készítése"
@@ -423,6 +422,51 @@
       "expired": "Lejárt",
       "copy_code_success": "Sikeres volt a kód másolása",
       "print_gift_card": "Nyomtatás"
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }

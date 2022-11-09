@@ -235,6 +235,23 @@
         }
       }
     },
+    "cards": {
+      "name": "Kaarten",
+      "settings": {
+        "header__badge": {
+          "content": "Badge"
+        },
+        "style": {
+          "options__1": {
+            "label": "Standaard"
+          },
+          "options__2": {
+            "label": "Kaart"
+          },
+          "label": "Stijl"
+        }
+      }
+    },
     "badges": {
       "name": "Badges",
       "settings": {
@@ -265,8 +282,7 @@
       "name": "Knoppen"
     },
     "variant_pills": {
-      "name": "Variantopties",
-      "paragraph": "Variantopties zijn een manier om je productvarianten weer te geven. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types#variant-picker-block)"
+      "name": "Variantopties"
     },
     "inputs": {
       "name": "Invoer"
@@ -309,50 +325,8 @@
           "header": "Winkelwagenoptie",
           "collection": {
             "label": "Collectie",
-            "info": "Zichtbaar wanneer winkelwagenoptie leeg is."
+            "info": "Zichtbaar wanneer winkelwagenoptie leeg is"
           }
-        }
-      }
-    },
-    "cards": {
-      "name": "Productkaarten",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standaard"
-          },
-          "options__2": {
-            "label": "Kaart"
-          },
-          "label": "Stijl"
-        }
-      }
-    },
-    "collection_cards": {
-      "name": "Collectiekaarten",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standaard"
-          },
-          "options__2": {
-            "label": "Kaart"
-          },
-          "label": "Stijl"
-        }
-      }
-    },
-    "blog_cards": {
-      "name": "Blogkaarten",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standaard"
-          },
-          "options__2": {
-            "label": "Kaart"
-          },
-          "label": "Stijl"
         }
       }
     }
@@ -409,18 +383,6 @@
             "text": {
               "label": "Tekst"
             },
-            "text_alignment": {
-              "label": "Tekstuitlijning",
-              "options__1": {
-                "label": "Links"
-              },
-              "options__2": {
-                "label": "Midden"
-              },
-              "options__3": {
-                "label": "Rechts"
-              }
-            },
             "link": {
               "label": "Link"
             }
@@ -450,16 +412,6 @@
           },
           "options__2": {
             "label": "Kolom"
-          }
-        },
-        "card_styles": {
-          "label": "Kaartstijl",
-          "info": "Product-, collectie- en blogkaartstijlen kunnen worden bijgewerkt in de thema-instellingen.",
-          "options__1": {
-            "label": "Individuele kaartstijlen gebruiken"
-          },
-          "options__2": {
-            "label": "Alles vormgeven als productkaarten"
           }
         }
       },
@@ -828,9 +780,7 @@
           "options__3": {
             "label": "Centraal boven"
           },
-          "options__4": {
-            "label": "Centraal midden"
-          }
+          "info": "De positie wordt automatisch geoptimaliseerd voor mobiel."
         },
         "menu": {
           "label": "Menu"
@@ -853,18 +803,6 @@
           },
           "options__2": {
             "label": "Megamenu"
-          }
-        },
-        "mobile_layout": {
-          "content": "Opmaak voor mobiel"
-        },
-        "mobile_logo_position": {
-          "label": "Positie logo op mobiel",
-          "options__1": {
-            "label": "Midden"
-          },
-          "options__2": {
-            "label": "Links"
           }
         }
       }
@@ -1721,50 +1659,6 @@
               "content": "Voeg een app toe voor productbeoordelingen om deze weer te geven. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
-        },
-        "complementary_products": {
-          "name": "Aanvullende producten",
-          "settings": {
-            "paragraph": {
-              "content": "Als je aanvullende producten wilt selecteren, voeg je de Search en Zichtbaarheid-app toe. [Meer informatie](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-            },
-            "heading": {
-              "label": "Koptekst"
-            },
-            "make_collapsible_row": {
-              "label": "Weergeven als inklapbare rij"
-            },
-            "icon": {
-              "info": "Zichtbaar wanneer de inklapbare rij wordt weergegeven."
-            },
-            "product_list_limit": {
-              "label": "Maximaal aantal weer te geven producten"
-            },
-            "products_per_page": {
-              "label": "Aantal producten per pagina"
-            },
-            "pagination_style": {
-              "label": "Pagineringsstijl",
-              "options": {
-                "option_1": "Stippen",
-                "option_2": "Teller",
-                "option_3": "Getallen"
-              }
-            },
-            "product_card": {
-              "heading": "Productkaart"
-            },
-            "image_ratio": {
-              "label": "Breedte-\/hoogteverhouding van afbeeldingen",
-              "options": {
-                "option_1": "Staand",
-                "option_2": "Vierkant"
-              }
-            },
-            "enable_quick_add": {
-              "label": "Knop 'Snel toevoegen' inschakelen"
-            }
-          }
         }
       },
       "settings": {
@@ -1787,13 +1681,10 @@
             "label": "Gestapeld"
           },
           "options__2": {
-            "label": "2 kolommen"
-          },
-          "options__3": {
             "label": "Miniatuurafbeeldingen"
           },
-          "options__4": {
-            "label": "Carrousel van miniaturen"
+          "options__3": {
+            "label": "Carrousel van miniatuur"
           }
         },
         "media_size": {
@@ -1812,23 +1703,10 @@
         "mobile_thumbnails": {
           "label": "Mobiele opmaak",
           "options__1": {
-            "label": "2 kolommen"
-          },
-          "options__2": {
             "label": "Miniaturen weergeven"
           },
-          "options__3": {
-            "label": "Miniaturen verbergen"
-          }
-        },
-        "media_position": {
-          "label": "Positie van media voor desktop",
-          "info": "De positie wordt automatisch geoptimaliseerd voor mobiel.",
-          "options__1": {
-            "label": "Links"
-          },
           "options__2": {
-            "label": "Rechts"
+            "label": "Miniaturen verbergen"
           }
         }
       }
@@ -1858,8 +1736,7 @@
           "content": "Productkaart"
         },
         "header__2": {
-          "content": "Blogkaart",
-          "info": "Blogkaartstijlen zijn ook van toepassing op paginakaarten in zoekresultaten. Werk je thema-instellingen bij om van kaartstijl te veranderen."
+          "content": "Blogkaart"
         },
         "article_show_date": {
           "label": "Datum weergeven"
@@ -2344,16 +2221,6 @@
         },
         "hide_variants": {
           "label": "Niet geselecteerde media van varianten op bureaublad verbergen"
-        },
-        "media_position": {
-          "label": "Positie van media voor desktopcomputer",
-          "info": "De positie wordt automatisch geoptimaliseerd voor mobiele weergave.",
-          "options__1": {
-            "label": "Links"
-          },
-          "options__2": {
-            "label": "Rechts"
-          }
         }
       },
       "presets": {
@@ -2868,27 +2735,6 @@
       "presets": {
         "name": "Inklapbare content"
       }
-    },
-    "main-account": {
-      "name": "Account"
-    },
-    "main-activate-account": {
-      "name": "Accountactivering"
-    },
-    "main-addresses": {
-      "name": "Adressen"
-    },
-    "main-login": {
-      "name": "Inloggen"
-    },
-    "main-order": {
-      "name": "Bestelling"
-    },
-    "main-register": {
-      "name": "Registratie"
-    },
-    "main-reset-password": {
-      "name": "Wachtwoord opnieuw instellen"
     }
   }
 }

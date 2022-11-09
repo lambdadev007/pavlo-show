@@ -235,6 +235,23 @@
         }
       }
     },
+    "cards": {
+      "name": "Schede",
+      "settings": {
+        "header__badge": {
+          "content": "Badge"
+        },
+        "style": {
+          "options__1": {
+            "label": "Standard"
+          },
+          "options__2": {
+            "label": "Scheda"
+          },
+          "label": "Stile"
+        }
+      }
+    },
     "badges": {
       "name": "Badge",
       "settings": {
@@ -265,8 +282,7 @@
       "name": "Pulsanti"
     },
     "variant_pills": {
-      "name": "Pulsanti di selezione variante",
-      "paragraph": "I pulsanti di selezione variante costituiscono uno dei modi in cui puoi visualizzare le varianti di prodotto. [Maggiori informazioni](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types#variant-picker-block)"
+      "name": "Pulsanti di selezione variante"
     },
     "inputs": {
       "name": "Input"
@@ -309,50 +325,8 @@
           "header": "Finestra del carrello",
           "collection": {
             "label": "Collezione",
-            "info": "Visibile quando la finestra del carrello è vuota."
+            "info": "Visibile quando la finestra del carrello è vuota"
           }
-        }
-      }
-    },
-    "cards": {
-      "name": "Schede prodotto",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Scheda"
-          },
-          "label": "Stile"
-        }
-      }
-    },
-    "collection_cards": {
-      "name": "Schede collezioni",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Scheda"
-          },
-          "label": "Stile"
-        }
-      }
-    },
-    "blog_cards": {
-      "name": "Schede del blog",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Scheda"
-          },
-          "label": "Stile"
         }
       }
     }
@@ -409,18 +383,6 @@
             "text": {
               "label": "Testo"
             },
-            "text_alignment": {
-              "label": "Allineamento testo",
-              "options__1": {
-                "label": "A sinistra"
-              },
-              "options__2": {
-                "label": "Al centro"
-              },
-              "options__3": {
-                "label": "A destra"
-              }
-            },
             "link": {
               "label": "Link"
             }
@@ -450,16 +412,6 @@
           },
           "options__2": {
             "label": "Colonna"
-          }
-        },
-        "card_styles": {
-          "label": "Stile scheda",
-          "info": "È possibile aggiornare gli stili delle schede dei blog, delle collezioni e dei prodotti.",
-          "options__1": {
-            "label": "Utilizza stili delle schede personali"
-          },
-          "options__2": {
-            "label": "Assimila tutti gli stili a quelli delle schede di prodotto"
           }
         }
       },
@@ -828,9 +780,7 @@
           "options__3": {
             "label": "In alto al centro"
           },
-          "options__4": {
-            "label": "In mezzo al centro"
-          }
+          "info": "Posizione automaticamente ottimizzata per dispositivi mobili."
         },
         "menu": {
           "label": "Menu"
@@ -853,18 +803,6 @@
           },
           "options__2": {
             "label": "Mega menu"
-          }
-        },
-        "mobile_layout": {
-          "content": "Layout dispositivo mobile"
-        },
-        "mobile_logo_position": {
-          "label": "Posizione del logo mobile",
-          "options__1": {
-            "label": "Al centro"
-          },
-          "options__2": {
-            "label": "A sinistra"
           }
         }
       }
@@ -1721,50 +1659,6 @@
               "content": "Per mostrare una valutazione, aggiungi un'app di valutazione del prodotto. [Maggiori informazioni](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
-        },
-        "complementary_products": {
-          "name": "Prodotti complementari",
-          "settings": {
-            "paragraph": {
-              "content": "Aggiungi l'app Search & Discovery per selezionare i prodotti complementari. [Maggiori informazioni](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-            },
-            "heading": {
-              "label": "Titolo"
-            },
-            "make_collapsible_row": {
-              "label": "Mostra come riga comprimibile"
-            },
-            "icon": {
-              "info": "Visibile quando è visualizzata la riga comprimibile."
-            },
-            "product_list_limit": {
-              "label": "Massimo di prodotti da mostrare"
-            },
-            "products_per_page": {
-              "label": "Numero di prodotti per pagina"
-            },
-            "pagination_style": {
-              "label": "Stile impaginazione",
-              "options": {
-                "option_1": "Punti",
-                "option_2": "Contatore",
-                "option_3": "Numeri"
-              }
-            },
-            "product_card": {
-              "heading": "Scheda prodotto"
-            },
-            "image_ratio": {
-              "label": "Proporzioni immagine",
-              "options": {
-                "option_1": "Verticale",
-                "option_2": "Square"
-              }
-            },
-            "enable_quick_add": {
-              "label": "Abilita il pulsante di aggiunta rapida"
-            }
-          }
         }
       },
       "settings": {
@@ -1787,12 +1681,9 @@
             "label": "Elencato"
           },
           "options__2": {
-            "label": "2 colonne"
-          },
-          "options__3": {
             "label": "Miniature"
           },
-          "options__4": {
+          "options__3": {
             "label": "Carosello miniature"
           }
         },
@@ -1812,23 +1703,10 @@
         "mobile_thumbnails": {
           "label": "Layout dispositivo mobile",
           "options__1": {
-            "label": "2 colonne"
-          },
-          "options__2": {
             "label": "Mostra miniature"
           },
-          "options__3": {
-            "label": "Nascondi miniature"
-          }
-        },
-        "media_position": {
-          "label": "Posizione contenuti multimediali su desktop",
-          "info": "Posizione automaticamente ottimizzata per dispositivi mobili.",
-          "options__1": {
-            "label": "A sinistra"
-          },
           "options__2": {
-            "label": "A destra"
+            "label": "Nascondi miniature"
           }
         }
       }
@@ -1858,8 +1736,7 @@
           "content": "Scheda prodotto"
         },
         "header__2": {
-          "content": "Scheda del blog",
-          "info": "Lo stile della scheda del blog si applica anche alle schede della pagina nei risultati di ricerca. Per modificare lo stile delle schede, aggiorna le impostazioni del tema."
+          "content": "Scheda del blog"
         },
         "article_show_date": {
           "label": "Mostra data"
@@ -2344,16 +2221,6 @@
         },
         "hide_variants": {
           "label": "Nascondi contenuti multimediali delle varianti non selezionate sul desktop"
-        },
-        "media_position": {
-          "label": "Posizione contenuti multimediali su desktop",
-          "info": "Posizione automaticamente ottimizzata per i dispositivi mobili.",
-          "options__1": {
-            "label": "A sinistra"
-          },
-          "options__2": {
-            "label": "A destra"
-          }
         }
       },
       "presets": {
@@ -2868,27 +2735,6 @@
       "presets": {
         "name": "Contenuto comprimibile"
       }
-    },
-    "main-account": {
-      "name": "Account"
-    },
-    "main-activate-account": {
-      "name": "Attivazione account"
-    },
-    "main-addresses": {
-      "name": "Indirizzi"
-    },
-    "main-login": {
-      "name": "Accedi"
-    },
-    "main-order": {
-      "name": "Ordine"
-    },
-    "main-register": {
-      "name": "Registrazione"
-    },
-    "main-reset-password": {
-      "name": "Reimpostazione della password"
     }
   }
 }

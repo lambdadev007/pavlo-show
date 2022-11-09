@@ -236,8 +236,11 @@
       }
     },
     "cards": {
-      "name": "商品カード",
+      "name": "カード",
       "settings": {
+        "header__badge": {
+          "content": "バッジ"
+        },
         "style": {
           "options__1": {
             "label": "スタンダード"
@@ -279,8 +282,7 @@
       "name": "ボタン"
     },
     "variant_pills": {
-      "name": "バリエーションのピル型ボタン",
-      "paragraph": "バリエーションのピル型ボタンは、商品バリエーションを表示する1つの方法です。[詳しくはこちら](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types#variant-picker-block)"
+      "name": "バリエーションのピル型ボタン"
     },
     "inputs": {
       "name": "入力"
@@ -323,36 +325,8 @@
           "header": "カートドロワー",
           "collection": {
             "label": "コレクション",
-            "info": "カートドロワーが空の場合に表示されます。"
+            "info": "カートドロワーが空の場合に表示"
           }
-        }
-      }
-    },
-    "collection_cards": {
-      "name": "コレクションカード",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "標準"
-          },
-          "options__2": {
-            "label": "カード"
-          },
-          "label": "スタイル"
-        }
-      }
-    },
-    "blog_cards": {
-      "name": "ブログカード",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "標準"
-          },
-          "options__2": {
-            "label": "カード"
-          },
-          "label": "スタイル"
         }
       }
     }
@@ -408,18 +382,6 @@
             "text": {
               "label": "テキスト"
             },
-            "text_alignment": {
-              "label": "テキストアラインメント",
-              "options__1": {
-                "label": "左"
-              },
-              "options__2": {
-                "label": "中央"
-              },
-              "options__3": {
-                "label": "右"
-              }
-            },
             "link": {
               "label": "リンク"
             }
@@ -450,16 +412,6 @@
           },
           "options__2": {
             "label": "列"
-          }
-        },
-        "card_styles": {
-          "label": "カードスタイル",
-          "info": "商品、コレクション、およびブログカードのスタイルは、テーマ設定で更新できます。",
-          "options__1": {
-            "label": "個別のカードスタイルを使用する"
-          },
-          "options__2": {
-            "label": "すべてを商品カードとする"
           }
         }
       },
@@ -828,9 +780,7 @@
           "options__3": {
             "label": "上部中央"
           },
-          "options__4": {
-            "label": "中央"
-          }
+          "info": "位置はモバイル用に自動で最適化されます。"
         },
         "menu": {
           "label": "メニュー"
@@ -853,18 +803,6 @@
           },
           "options__2": {
             "label": "メガメニュー"
-          }
-        },
-        "mobile_layout": {
-          "content": "モバイルのレイアウト"
-        },
-        "mobile_logo_position": {
-          "label": "モバイルのロゴの位",
-          "options__1": {
-            "label": "中央"
-          },
-          "options__2": {
-            "label": "左"
           }
         }
       }
@@ -1047,10 +985,10 @@
         },
         "layout": {
           "options__1": {
-            "label": "右"
+            "label": "最初の画像"
           },
           "options__2": {
-            "label": "左"
+            "label": "画像の表示秒数"
           },
           "label": "デスクトップ画像の配置",
           "info": "最初の画像は、デフォルトのモバイルレイアウトです。"
@@ -1643,7 +1581,7 @@
                 "label": "リサイクル"
               },
               "options__34": {
-                "label": "戻る"
+                "label": "返品"
               },
               "options__35": {
                 "label": "定規"
@@ -1721,50 +1659,6 @@
               "content": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
-        },
-        "complementary_products": {
-          "name": "付属商品",
-          "settings": {
-            "paragraph": {
-              "content": "補完する商品を選択するには、Search & Discoveryアプリを追加してください。[詳しくはこちら](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
-            },
-            "heading": {
-              "label": "見出し"
-            },
-            "make_collapsible_row": {
-              "label": "折りたたみ可能な行として表示する"
-            },
-            "icon": {
-              "info": "折りたたみ可能な行を表示しているときに表示されます。"
-            },
-            "product_list_limit": {
-              "label": "表示する商品の最大数"
-            },
-            "products_per_page": {
-              "label": "1ページあたりの商品数"
-            },
-            "pagination_style": {
-              "label": "ページネーションのスタイル",
-              "options": {
-                "option_1": "ドット",
-                "option_2": "カウンター",
-                "option_3": "数字"
-              }
-            },
-            "product_card": {
-              "heading": "商品カード"
-            },
-            "image_ratio": {
-              "label": "画像比",
-              "options": {
-                "option_1": "縦長",
-                "option_2": "正方形"
-              }
-            },
-            "enable_quick_add": {
-              "label": "「クイック追加」ボタンを有効にする"
-            }
-          }
         }
       },
       "settings": {
@@ -1787,12 +1681,9 @@
             "label": "スタックされました"
           },
           "options__2": {
-            "label": "2列"
-          },
-          "options__3": {
             "label": "サムネイル"
           },
-          "options__4": {
+          "options__3": {
             "label": "サムネイルカルーセル"
           }
         },
@@ -1812,23 +1703,10 @@
         "mobile_thumbnails": {
           "label": "モバイルのレイアウト",
           "options__1": {
-            "label": "2列"
-          },
-          "options__2": {
             "label": "サムネイルを表示する"
           },
-          "options__3": {
-            "label": "サムネイルを非表示にする"
-          }
-        },
-        "media_position": {
-          "label": "デスクトップのメディア位置",
-          "info": "位置はモバイル用に自動で最適化されます。",
-          "options__1": {
-            "label": "左"
-          },
           "options__2": {
-            "label": "右"
+            "label": "サムネイルを非表示にする"
           }
         }
       }
@@ -1858,8 +1736,7 @@
           "content": "商品カード"
         },
         "header__2": {
-          "content": "ブログカード",
-          "info": "ブログカードのスタイルは、検索結果のページカードにも適用されます。カードスタイルを変更するには、テーマ設定を更新してください。"
+          "content": "ブログカード"
         },
         "article_show_date": {
           "label": "日付を表示する"
@@ -2344,16 +2221,6 @@
         },
         "hide_variants": {
           "label": "デスクトップで選択されていないバリエーションのメディアを非表示にする"
-        },
-        "media_position": {
-          "label": "デスクトップのメディア位置",
-          "info": "位置はモバイル用に自動で最適化されます。",
-          "options__1": {
-            "label": "左"
-          },
-          "options__2": {
-            "label": "右"
-          }
         }
       },
       "presets": {
@@ -2829,7 +2696,7 @@
                 "label": "リサイクル"
               },
               "options__34": {
-                "label": "戻る"
+                "label": "返品"
               },
               "options__35": {
                 "label": "定規"
@@ -2868,27 +2735,6 @@
       "presets": {
         "name": "折りたたみ可能なコンテンツ"
       }
-    },
-    "main-account": {
-      "name": "アカウント"
-    },
-    "main-activate-account": {
-      "name": "アカウントの有効化"
-    },
-    "main-addresses": {
-      "name": "アドレス"
-    },
-    "main-login": {
-      "name": "ログイン"
-    },
-    "main-order": {
-      "name": "注文"
-    },
-    "main-register": {
-      "name": "登録"
-    },
-    "main-reset-password": {
-      "name": "パスワードのリセット"
     }
   }
 }
